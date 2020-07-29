@@ -10,13 +10,13 @@ class Deque:
 
     def removeFront(self):
         if self.size():
-            self.deque.pop(0) # удаление из головы
+            return self.deque.pop(0) # удаление из головы
         else:
             return None # если очередь пуста
 
     def removeTail(self):
         if self.size():
-            self.deque.pop() # удаление из хвоста
+            return self.deque.pop() # удаление из хвоста
         else:
             return None # если очередь пуста
 
